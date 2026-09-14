@@ -1,0 +1,104 @@
+/* 2026-09-03 : delete, simplify, accelerate, automate.
+   Quatre boutons devenaient un aller-retour a chaque fois : copier le bloc, le coller dans un
+   fichier, lancer le cook a la main. Il en reste DEUX, et ils ferment la boucle sur place.
+   Enregistrer ecrit les reglages sur le disque ET les met dans le presse-papier.
+   Cuire enregistre puis produit les JPEG, sans quitter la page.
+   Sans serveur (ouverture en file://), les deux se degradent proprement : la copie reste, le
+   fichier se telecharge, et Cuire se desactive en DISANT pourquoi plutot qu en echouant en silence. */
+(function () {
+  'use strict';
+  var etat = { enregistrer: false, cuire: false };
+
+  function payload() {
+    return typeof window.ZR_PAYLOAD === 'function' ? window.ZR_PAYLOAD() : null;
+  }
+
+  function copier(texte) {
+    var z = document.createElement('textarea');
+    z.value = texte; z.style.position = 'fixed'; z.style.opacity = '0';
+    document.body.appendChild(z); z.select();
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (_) { ok = false; }
+    z.remove();
+    return ok;
+  }
+
+  function telecharger(nom, texte) {
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([texte], { type: 'application/json' }));
+    a.download = nom;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+  }
+
+  function envoyer(route, donnees) {
+    return fetch(route, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(donnees)
+    }).then(function (r) { return r.json().then(function (j) { return { code: r.status, corps: j }; }); });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var ancien = document.getElementById('copyAllBtn');
+    if (!ancien) return;
+
+    var barre = document.createElement('span');
+    barre.className = 'zr-save-bar';
+    var bEnr = document.createElement('button');
+    bEnr.type = 'button'; bEnr.className = 'primary'; bEnr.id = 'zr-save-btn';
+    bEnr.textContent = 'Enregistrer';
+    var bCook = document.createElement('button');
+    bCook.type = 'button'; bCook.id = 'zr-cook-btn'; bCook.textContent = 'Cuire les JPEG';
+    var note = document.createElement('span');
+    note.className = 'zr-save-note'; note.setAttribute('role', 'status');
+    barre.appendChild(bEnr); barre.appendChild(bCook); barre.appendChild(note);
+    ancien.replaceWith(barre);
+
+    function dire(texte) { note.textContent = texte; }
+
+    fetch('zr-capacites').then(function (r) { return r.ok ? r.json() : null; }).then(function (c) {
+      if (!c) throw new Error('hors serveur');
+      etat.enregistrer = !!c.enregistrer; etat.cuire = !!c.cuire;
+      dire('');
+    }).catch(function () {
+      etat.enregistrer = false; etat.cuire = false;
+      bCook.disabled = true;
+      bCook.title = "Ouvrir l'atelier par la commande d'instanciation pour cuire ici. En double-clic, le cook se lance au terminal.";
+      dire('hors serveur : Enregistrer copie et télécharge');
+    });
+
+    bEnr.addEventListener('click', function () {
+      var d = payload();
+      if (!d) return dire('réglages indisponibles');
+      var texte = typeof window.ZR_OUTPUT_TEXT === 'function' ? window.ZR_OUTPUT_TEXT() : JSON.stringify(d, null, 2);
+      var copie = copier(texte);
+      if (!etat.enregistrer) {
+        telecharger('_params.json', JSON.stringify(d, null, 2));
+        return dire(copie ? 'copié et téléchargé' : 'téléchargé, copie refusée');
+      }
+      dire('enregistrement…');
+      envoyer('zr-enregistrer', d).then(function (r) {
+        dire(r.corps.ok ? (copie ? 'enregistré et copié' : 'enregistré') : 'échec : ' + r.corps.erreur);
+      }).catch(function (e) { dire('échec : ' + e.message); });
+    });
+
+    bCook.addEventListener('click', function () {
+      var d = payload();
+      if (!d || !etat.cuire) return;
+      bCook.disabled = true; dire('cuisson…');
+      envoyer('zr-cuire', d).then(function (r) {
+        dire(r.corps.ok ? r.corps.images + ' images écrites dans out/' : 'échec du cook : ' + (r.corps.journal || []).join(' '));
+      }).catch(function (e) { dire('échec : ' + e.message); })
+        .finally(function () { bCook.disabled = false; });
+    });
+
+    // Les trois boutons du post font double emploi avec Enregistrer : on les retire.
+    ['zr-post-copy', 'zr-post-save', 'zr-post-import'].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.remove();
+    });
+    var actions = document.querySelector('.zr-post-actions');
+    if (actions && !actions.children.length) actions.remove();
+  });
+})();

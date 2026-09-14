@@ -1,0 +1,68 @@
+{
+  "dossier_source": "/Users/zenray/Downloads/acquarium-post1",
+  "images": [
+    {
+      "id": "01",
+      "file": "DJI_20000818114702_0855_D.JPG",
+      "path": "/Users/zenray/Downloads/acquarium-post1/DJI_20000818114702_0855_D.JPG",
+      "width": 7680,
+      "height": 4320
+    },
+    {
+      "id": "02",
+      "file": "DJI_20000818114703_0856_D.JPG",
+      "path": "/Users/zenray/Downloads/acquarium-post1/DJI_20000818114703_0856_D.JPG",
+      "width": 7680,
+      "height": 4320
+    },
+    {
+      "id": "03",
+      "file": "DJI_20000818115615_0904_D.JPG",
+      "path": "/Users/zenray/Downloads/acquarium-post1/DJI_20000818115615_0904_D.JPG",
+      "width": 7680,
+      "height": 4320
+    },
+    {
+      "id": "04",
+      "file": "DJI_20000818120619_0909_D.JPG",
+      "path": "/Users/zenray/Downloads/acquarium-post1/DJI_20000818120619_0909_D.JPG",
+      "width": 7680,
+      "height": 4320
+    },
+    {
+      "id": "05",
+      "file": "IMG_6111.jpeg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/IMG_6111.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "06",
+      "file": "IMG_6132.jpeg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/IMG_6132.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "07",
+      "file": "IMG_6138.jpeg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/IMG_6138.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "08",
+      "file": "IMG_6164.jpeg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/IMG_6164.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "09",
+      "file": "IMG_6207.jpeg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/IMG_6207.jpeg",
+      "width": 5712,
+      "height": 4284
+    }
+  ]
+}
