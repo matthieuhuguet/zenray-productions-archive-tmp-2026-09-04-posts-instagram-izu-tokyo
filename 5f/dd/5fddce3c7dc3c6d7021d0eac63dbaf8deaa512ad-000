@@ -1,0 +1,145 @@
+{
+  "dossier_source": "/Users/zenray/Downloads/meiji-jingu1",
+  "images": [
+    {
+      "id": "01",
+      "file": "IMG_6463.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6463.JPG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "02",
+      "file": "IMG_6471.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6471.JPG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "03",
+      "file": "IMG_6479.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6479.JPG",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "04",
+      "file": "IMG_6493.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6493.JPG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "05",
+      "file": "IMG_6518.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6518.JPG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "06",
+      "file": "IMG_6521.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6521.JPG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "07",
+      "file": "IMG_6531.jpeg",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6531.jpeg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "08",
+      "file": "IMG_6532.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6532.JPG",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "09",
+      "file": "IMG_6534.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6534.JPG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "10",
+      "file": "IMG_6536.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6536.JPG",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "11",
+      "file": "IMG_6541.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6541.JPG",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "12",
+      "file": "IMG_6548.jpeg",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6548.jpeg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "13",
+      "file": "IMG_6557.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6557.JPG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "14",
+      "file": "IMG_6564.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6564.JPG",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "15",
+      "file": "IMG_6568.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6568.JPG",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "16",
+      "file": "IMG_6570.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6570.JPG",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "17",
+      "file": "IMG_6583.jpeg",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6583.jpeg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "18",
+      "file": "IMG_6595.jpeg",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6595.jpeg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": "19",
+      "file": "IMG_6600.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6600.JPG",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "20",
+      "file": "IMG_6607.JPG",
+      "path": "/Users/zenray/Downloads/meiji-jingu1/IMG_6607.JPG",
+      "width": 5712,
+      "height": 4284
+    }
+  ]
+}
