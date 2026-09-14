@@ -1,0 +1,566 @@
+{
+  "project": "acquarium-post1",
+  "order": [
+    "06",
+    "05",
+    "02",
+    "03",
+    "04",
+    "07",
+    "09",
+    "08",
+    "01"
+  ],
+  "images": {
+    "06": {
+      "position": 1,
+      "file": "06-IMG_6111.jpg",
+      "output": "01.jpg",
+      "photo": {
+        "vignette": 0,
+        "selective": [
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          }
+        ],
+        "levels": {
+          "inputBlack": 0,
+          "midtone": 50,
+          "inputWhite": 100,
+          "outputBlack": 0,
+          "outputWhite": 100
+        },
+        "blackAndWhite": 0,
+        "saturation": 100,
+        "vibrance": 0,
+        "brilliance": 0,
+        "exposure": -5,
+        "highlights": 25,
+        "shadows": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "blackPoint": 0,
+        "filter": "Vivid Cool",
+        "filterStrength": 50
+      },
+      "text": [
+        {
+          "value": "Shimoda Aquarium",
+          "font": "serif",
+          "weight": 400,
+          "size_px": 312,
+          "requested_size_px": 552,
+          "color": "#ffffff",
+          "anchor": "bottom-center"
+        }
+      ]
+    },
+    "05": {
+      "position": 2,
+      "file": "05-DJI_20000818120619_0909_D.jpg",
+      "output": "02.jpg",
+      "photo": {
+        "vignette": 25,
+        "selective": [
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          }
+        ],
+        "levels": {
+          "inputBlack": 0,
+          "midtone": 50,
+          "inputWhite": 100,
+          "outputBlack": 0,
+          "outputWhite": 100
+        },
+        "blackAndWhite": 0,
+        "saturation": 50,
+        "vibrance": 0,
+        "brilliance": 0,
+        "exposure": -5,
+        "highlights": 25,
+        "shadows": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "blackPoint": 0,
+        "filter": "Vivid Cool",
+        "filterStrength": 50
+      },
+      "text": []
+    },
+    "02": {
+      "position": 3,
+      "file": "02-DJI_20000818114702_0855_D.jpg",
+      "output": "03.jpg",
+      "photo": {
+        "vignette": 25,
+        "selective": [
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          }
+        ],
+        "levels": {
+          "inputBlack": 0,
+          "midtone": 50,
+          "inputWhite": 100,
+          "outputBlack": 0,
+          "outputWhite": 100
+        },
+        "blackAndWhite": 0,
+        "saturation": 0,
+        "vibrance": 0,
+        "brilliance": -100,
+        "exposure": 0,
+        "highlights": -50,
+        "shadows": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "blackPoint": -15,
+        "filter": "Vivid Cool",
+        "filterStrength": 100
+      },
+      "text": []
+    },
+    "03": {
+      "position": 4,
+      "file": "03-DJI_20000818114703_0856_D.jpg",
+      "output": "04.jpg",
+      "photo": {
+        "vignette": 25,
+        "selective": [
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          }
+        ],
+        "levels": {
+          "inputBlack": 0,
+          "midtone": 50,
+          "inputWhite": 100,
+          "outputBlack": 0,
+          "outputWhite": 100
+        },
+        "blackAndWhite": 0,
+        "saturation": 0,
+        "vibrance": 0,
+        "brilliance": -100,
+        "exposure": 0,
+        "highlights": -50,
+        "shadows": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "blackPoint": -15,
+        "filter": "Vivid Cool",
+        "filterStrength": 100
+      },
+      "text": []
+    },
+    "04": {
+      "position": 5,
+      "file": "04-DJI_20000818115615_0904_D.jpg",
+      "output": "05.jpg",
+      "photo": {
+        "vignette": 0,
+        "selective": [
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          }
+        ],
+        "levels": {
+          "inputBlack": 0,
+          "midtone": 50,
+          "inputWhite": 100,
+          "outputBlack": 0,
+          "outputWhite": 100
+        },
+        "blackAndWhite": 0,
+        "saturation": 15,
+        "vibrance": 0,
+        "brilliance": 0,
+        "exposure": -5,
+        "highlights": 25,
+        "shadows": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "blackPoint": 0,
+        "filter": "Vivid Cool",
+        "filterStrength": 100
+      },
+      "text": []
+    },
+    "07": {
+      "position": 6,
+      "file": "07-IMG_6132.jpg",
+      "output": "06.jpg",
+      "photo": {
+        "vignette": 0,
+        "selective": [
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          }
+        ],
+        "levels": {
+          "inputBlack": 0,
+          "midtone": 50,
+          "inputWhite": 100,
+          "outputBlack": 0,
+          "outputWhite": 100
+        },
+        "blackAndWhite": 0,
+        "saturation": 0,
+        "vibrance": 0,
+        "brilliance": 50,
+        "exposure": 0,
+        "highlights": 25,
+        "shadows": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "blackPoint": 0,
+        "filter": "Vivid Cool",
+        "filterStrength": 100
+      },
+      "text": []
+    },
+    "09": {
+      "position": 7,
+      "file": "09-IMG_6164.jpg",
+      "output": "07.jpg",
+      "photo": {
+        "vignette": 25,
+        "selective": [
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          }
+        ],
+        "levels": {
+          "inputBlack": 0,
+          "midtone": 50,
+          "inputWhite": 100,
+          "outputBlack": 0,
+          "outputWhite": 100
+        },
+        "blackAndWhite": 0,
+        "saturation": 100,
+        "vibrance": 0,
+        "brilliance": 50,
+        "exposure": 0,
+        "highlights": 0,
+        "shadows": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "blackPoint": 0,
+        "filter": "Vivid Cool",
+        "filterStrength": 100
+      },
+      "text": []
+    },
+    "08": {
+      "position": 8,
+      "file": "08-IMG_6138.jpg",
+      "output": "08.jpg",
+      "photo": {
+        "vignette": 25,
+        "selective": [
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          }
+        ],
+        "levels": {
+          "inputBlack": 0,
+          "midtone": 50,
+          "inputWhite": 100,
+          "outputBlack": 0,
+          "outputWhite": 100
+        },
+        "blackAndWhite": 0,
+        "saturation": 100,
+        "vibrance": 0,
+        "brilliance": 0,
+        "exposure": -5,
+        "highlights": 25,
+        "shadows": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "blackPoint": 0,
+        "filter": "Vivid Cool",
+        "filterStrength": 50
+      },
+      "text": []
+    },
+    "01": {
+      "position": 9,
+      "file": "01-IMG_6207.jpg",
+      "output": "09.jpg",
+      "photo": {
+        "vignette": 50,
+        "selective": [
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          },
+          {
+            "hue": 0,
+            "saturation": 0,
+            "luminance": 0
+          }
+        ],
+        "levels": {
+          "inputBlack": 0,
+          "midtone": 50,
+          "inputWhite": 100,
+          "outputBlack": 0,
+          "outputWhite": 100
+        },
+        "blackAndWhite": 0,
+        "saturation": 100,
+        "vibrance": 0,
+        "brilliance": 0,
+        "exposure": -5,
+        "highlights": 25,
+        "shadows": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "blackPoint": 0,
+        "filter": "Vivid Cool",
+        "filterStrength": 50
+      },
+      "text": []
+    }
+  }
+}

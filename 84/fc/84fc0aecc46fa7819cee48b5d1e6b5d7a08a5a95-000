@@ -1,0 +1,68 @@
+{
+  "dossier_source": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out",
+  "images": [
+    {
+      "id": "01",
+      "file": "01-IMG_6207.jpg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out/01-IMG_6207.jpg",
+      "width": 3240,
+      "height": 4050
+    },
+    {
+      "id": "02",
+      "file": "02-DJI_20000818114702_0855_D.jpg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out/02-DJI_20000818114702_0855_D.jpg",
+      "width": 3240,
+      "height": 4050
+    },
+    {
+      "id": "03",
+      "file": "03-DJI_20000818114703_0856_D.jpg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out/03-DJI_20000818114703_0856_D.jpg",
+      "width": 3240,
+      "height": 4050
+    },
+    {
+      "id": "04",
+      "file": "04-DJI_20000818115615_0904_D.jpg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out/04-DJI_20000818115615_0904_D.jpg",
+      "width": 3240,
+      "height": 4050
+    },
+    {
+      "id": "05",
+      "file": "05-DJI_20000818120619_0909_D.jpg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out/05-DJI_20000818120619_0909_D.jpg",
+      "width": 3240,
+      "height": 4050
+    },
+    {
+      "id": "06",
+      "file": "06-IMG_6111.jpg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out/06-IMG_6111.jpg",
+      "width": 3240,
+      "height": 4050
+    },
+    {
+      "id": "07",
+      "file": "07-IMG_6132.jpg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out/07-IMG_6132.jpg",
+      "width": 3240,
+      "height": 4050
+    },
+    {
+      "id": "08",
+      "file": "08-IMG_6138.jpg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out/08-IMG_6138.jpg",
+      "width": 3240,
+      "height": 4050
+    },
+    {
+      "id": "09",
+      "file": "09-IMG_6164.jpg",
+      "path": "/Users/zenray/Downloads/acquarium-post1/zenray-html-hda-acquarium-post1/out/09-IMG_6164.jpg",
+      "width": 3240,
+      "height": 4050
+    }
+  ]
+}
