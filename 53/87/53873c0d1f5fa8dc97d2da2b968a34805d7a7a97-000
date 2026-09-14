@@ -1,0 +1,96 @@
+{
+  "dossier_source": "/Users/zenray/Downloads/shimoda-post3",
+  "images": [
+    {
+      "id": "01",
+      "file": "IMG_6056.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6056.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "02",
+      "file": "IMG_6059.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6059.jpeg",
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": "03",
+      "file": "IMG_6063.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6063.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "04",
+      "file": "IMG_6069.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6069.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "05",
+      "file": "IMG_6075.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6075.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "06",
+      "file": "IMG_6083.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6083.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "07",
+      "file": "IMG_6084.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6084.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "08",
+      "file": "IMG_6090.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6090.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "09",
+      "file": "IMG_6095.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6095.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "10",
+      "file": "IMG_6099.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6099.jpeg",
+      "width": 3024,
+      "height": 4032
+    },
+    {
+      "id": "11",
+      "file": "IMG_6202.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6202.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "12",
+      "file": "IMG_6217.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6217.jpeg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": "13",
+      "file": "IMG_6218.jpeg",
+      "path": "/Users/zenray/Downloads/shimoda-post3/IMG_6218.jpeg",
+      "width": 5712,
+      "height": 4284
+    }
+  ]
+}
